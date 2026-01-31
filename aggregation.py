@@ -75,4 +75,4 @@ print()
 # Multiple aggregations at once
 print("Summary of all numeric columns:")
 numeric_cols = ['first_ings_score', 'second_ings_score', 'margin', 'highscore']
-print(df[numeric_cols].agg(['sum', 'mean', 'max', 'min', 'count']))
+print(df[numeric_cols].agg(['sum', 'mean','max','min','count']))
